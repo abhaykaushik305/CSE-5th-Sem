@@ -1,0 +1,107 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{mlsubmit}
+
+\begin{document}
+
+\initmlsubmision{1} % assignment number
+{Abhay}   % your name
+{180014}	% your roll number
+
+\begin{mlsolution}
+% A vector symbol $\vb$, a symbol in blackboard font $\bR$, a symbol in calligraphic font $\cA$, \red{some} \green{colored} \blue{text}
+Loss function for logistic regression is given by
+\[\cL(\vw) = - \sum_{n=1}^{N}(y_n\vw^T\vx_n - \log(1 + \exp{(\vw^T\vx_n)}))  \]
+As given in question, the update equation is given as 
+\[\vw^{(t+1)}=\vw^{(t)} - \vH^{(t)^{-1}}\vg^{(t)} \]
+The derivative of loss function $\cL(\vw)$ w.r.t $\vw$ i.e. gradient $\vg$ is given as
+\[\vg= \frac{\partial\cL}{\partial\vw}  = \frac{\partial}{\partial \vw} [ - \sum_{n=1}^{N}(y_n\vw^T\vx_n - \log(1 + \exp{(\vw^Tx_n)}))] \]
+\[= - \sum_{n=1}^{N} \left( y_n\vx_n - \frac{\exp{(\vw^T\vx_n)}}{1+\exp{(\vw^T\vx_n)}} \vx_n\right)\]
+
+Now we have $\mu_n = \frac{\exp{(\vw^T\vx_n)}}{1+\exp{(\vw^T\vx_n)}} $.  We know from theory in class that $\mu_n$ is the probability of $y_n$ equal to 1. Substituting this we get,
+\[\vg = \frac{\partial\cL}{\partial\vw} = - \sum_{n=1}^{N}(y_n-\mu_n)\vx_n\]
+\[= \vX^T(\boldsymbol{\mu} - \vy)\]
+
+Hessian is double derivative of loss function $\cL(\vw)$ and is given as 
+
+    
+\begin{equation}
+\begin{split}
+    \vH & = \frac{\partial^2\cL(\vw)}{\partial\vw\partial\vw^T}\\
+& = \frac{\partial\vg^T}{\partial\vw}\\
+& = -\frac{\partial}{\partial\vw}\sum_{n=1}^{N}(y_n-\mu_n)\vx_n^{T}\\
+ & = \sum_{n=1}^{N}\frac{\partial\mu_n}{\partial\vw}\vx_n^{T}
+\end{split}
+\end{equation}
+
+
+Taking derivative of $\mu_n = \frac{\exp(\vw^T\vx_n)}{1+\exp(\vw^T\vx_n)} $ w.r.t $\vw$ gives us 
+\[\frac{\partial\mu_n}{\partial\vw}= \frac{\exp(\vw^T\vx_n)}{(1+\exp(\vw^T\vx_n))^{2}}\vx_n = \mu_n (1-\mu_n)\vx_n\]
+
+Substituting this in eqn of $\vH$, we get
+\[\vH = \sum_{n=1}^{N} \mu_n (1-\mu_n)\vx_n^T\vx_n\]
+In order to write in matrix form, assume a diagonal matrix $\vB$ with its kth diagonal element $\vB_{kk}=\mu_k(1-\mu_k)$. Thus matrix form of $\vH$ is 
+\[\vH = \vX^T\vB\vX\]
+Now, let substitute the values of $\vH$ and $\vg$ in the update equation
+\begin{equation}
+    \begin{split}
+        \vw^{(t+1)} & = \vw^{(t)} - \vH^{(t)^{-1}}\vg^{(t)} \\
+        & = \vw^{(t)} - (\vX^T\vB^{(t)}\vX)^{-1}\vX^T(\boldsymbol{\mu^{(t)}}-\vy)\\
+        & = (\vX^T\vB^{(t)}\vX)^{-1}[(\vX^T\vB^{(t)}\vX)\vw^{(t)} - \vX^T(\boldsymbol{\mu^{(t)}} - \vy)]\\
+        & = (\vX^T\vB_t\vX)^{-1}\vX^T\vB_t\green{[\vX\vw^{(t)} - \vB^{(t)^{-1}}(\boldsymbol{\mu^{(t)}}- \vy)]} \\
+        & = (\vX^T\vB^{(t)}\vX)^{-1}\vX^T\vB^{(t)} \green{\Hat{\vy}^{(t)}}
+    \end{split}
+\end{equation}
+Here $\Hat{\vy}^{(t)}$ is a N dimensional vector. 
+The above result is basically the closed form iterative solution of the following regression problem
+\[\vw^{(t+1)} = \textrm{arg} \min_{w} \sum_{n=1}^{N} B_{n}^{(t)} (\hat{y}_{n}^{(t)} - \vw^T\vx_n)^{2}\]
+\begin{itemize}
+    \item $\vB_{n}^{(t)}$ is the nth diagonal element of $\vB^{(t)}$. Hence $\vB_{n}^{(t)} = \mu_n^{(t)} (1- \mu_n^{(t)})$.
+    \item $\hat{y}_n^{t}$ is simply the nth term of $\hat{\vy}^{(t)}$
+\end{itemize}
+Comparing from the importance weighted equation given in question we get
+\[\gamma_n^{(t)}= \vB_{n}^{(t)} = \mu_n^{(t)} (1- \mu_n^{(t)})\]
+Since The inverse of a diagonal matrix is obtained by replacing each element in the diagonal with its reciprocal, thus we have
+\begin{equation}
+  \begin{split}
+    \hat{y}_n^{(t)} & = \vw^{(t)^T}\vx_n - (B_n^{(t)})^{-1}(\mu_n^{(t)} - y_n)\\
+    & = \vw^{(t)^T}\vx_n - \frac{\mu_n^{(t)} - y_n}{\mu_n^{(t)} (1- \mu_n^{(t)})}
+  \end{split}
+\end{equation}
+
+
+\end{mlsolution}
+
+\begin{mlsolution} 
+
+My solution to problem 2
+
+
+\end{mlsolution}
+
+\begin{mlsolution}
+
+My solution to problem 3
+
+\end{mlsolution}
+
+\begin{mlsolution}
+
+My solution to problem 4
+
+\end{mlsolution}
+	
+\begin{mlsolution}
+
+My solution to problem 5
+
+\end{mlsolution}
+
+\begin{mlsolution}
+
+My solution to problem 6
+
+\end{mlsolution}
+
+
+\end{document}

@@ -1,0 +1,162 @@
+621165 write(2, "Closing fd[playerID][0][READ]!\n", 31) = 31
+621165 write(2, "Closing fd[playerID][0][READ]!\n", 31) = 31
+621165 write(2, "Closing fd[playerID][0][READ]!\n", 31) = 31
+621165 write(2, "Closing fd[playerID][0][READ]!\n", 31) = 31
+621165 write(2, "Both players created!\n", 22) = 22
+621165 write(2, "playMatch() Called!\n", 20) = 20
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20) = 20
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20) = 20
+621167 write(1, "0", 1 <unfinished ...>
+621166 write(1, "0", 1 <unfinished ...>
+621167 <... write resumed>)             = 1
+621166 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "0", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "0", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "0", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "0", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 2\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 2\n", 28) = 28
+621165 write(2, "playRound() Called!\n", 20) = 20
+621165 write(4, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621166 write(1, "2", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621166 <... write resumed>)             = 1
+621165 write(8, "GO\0", 3)              = 3
+621165 write(2, "write() returned: 3\n", 20 <unfinished ...>
+621167 write(1, "1", 1 <unfinished ...>
+621165 <... write resumed>)             = 20
+621167 <... write resumed>)             = 1
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "read() returned: 1\n", 19) = 19
+621165 write(2, "[Inside playRound]result: 1\n", 28) = 28
+621165 write(2, "[Inside playMatch]result: 1\n", 28) = 28
+621165 write(1, "1 0", 3)               = 3
+621165 +++ exited with 0 +++
+621167 write(1, "child (621167) is terminating.\n", 31 <unfinished ...>
+621166 write(1, "child (621166) is terminating.\n", 31 <unfinished ...>
+621167 <... write resumed>)             = -1 EBADF (Bad file descriptor)
+621166 <... write resumed>)             = -1 EBADF (Bad file descriptor)
+621167 +++ exited with 0 +++
+621166 +++ exited with 0 +++

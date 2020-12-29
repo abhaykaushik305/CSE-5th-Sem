@@ -1,0 +1,1451 @@
+I am the parent process.
+Opened tests/moves/players3.txt
+readline(): 15
+numRounds: 10, filenameIndex: 1, totalPlayers: 15
+readline(): tests/moves/player1
+Name of player 0: tests/moves/player1
+readline(): tests/moves/player2
+Name of player 1: tests/moves/player2
+readline(): tests/moves/player3
+Name of player 2: tests/moves/player3
+readline(): tests/moves/player2
+Name of player 3: tests/moves/player2
+readline(): tests/moves/player3
+Name of player 4: tests/moves/player3
+readline(): tests/moves/player1
+Name of player 5: tests/moves/player1
+readline(): tests/moves/player2
+Name of player 6: tests/moves/player2
+readline(): tests/moves/player1
+Name of player 7: tests/moves/player1
+readline(): tests/moves/player2
+Name of player 8: tests/moves/player2
+readline(): tests/moves/player3
+Name of player 9: tests/moves/player3
+readline(): tests/moves/player2
+Name of player 10: tests/moves/player2
+readline(): tests/moves/player3
+Name of player 11: tests/moves/player3
+readline(): tests/moves/player1
+Name of player 12: tests/moves/player1
+readline(): tests/moves/player2
+Name of player 13: tests/moves/player2
+readline(): tests/moves/player2
+Name of player 14: tests/moves/player2
+I child process with logicalPID: 0 will exec: tests/moves/player1
+I child process with logicalPID: 2 will exec: tests/moves/player3
+I child process with logicalPID: 3 will exec: tests/moves/player2
+I child process with logicalPID: 6 will exec: tests/moves/player2
+I child process with logicalPID: 13 will exec: tests/moves/player2
+I child process with logicalPID: 9 will exec: tests/moves/player3
+I child process with logicalPID: 12 will exec: tests/moves/player1
+I child process with logicalPID: 7 will exec: tests/moves/player1
+I child process with logicalPID: 8 will exec: tests/moves/player2
+I child process with logicalPID: 5 will exec: tests/moves/player1
+I child process with logicalPID: 10 will exec: tests/moves/player2
+I child process with logicalPID: 11 will exec: tests/moves/player3
+I child process with logicalPID: 4 will exec: tests/moves/player3
+I child process with logicalPID: 14 will exec: tests/moves/player2
+player [logicalID: 0, name: tests/moves/player1] exec'd successfuly
+I child process with logicalPID: 1 will exec: tests/moves/player2
+player [logicalID: 1, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 2, name: tests/moves/player3] exec'd successfuly
+player [logicalID: 3, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 4, name: tests/moves/player3] exec'd successfuly
+player [logicalID: 5, name: tests/moves/player1] exec'd successfuly
+player [logicalID: 6, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 7, name: tests/moves/player1] exec'd successfuly
+player [logicalID: 8, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 9, name: tests/moves/player3] exec'd successfuly
+player [logicalID: 10, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 11, name: tests/moves/player3] exec'd successfuly
+player [logicalID: 12, name: tests/moves/player1] exec'd successfuly
+player [logicalID: 13, name: tests/moves/player2] exec'd successfuly
+player [logicalID: 14, name: tests/moves/player2] exec'd successfuly
+
+
+New level of the tournament starting. numActivePlayers: 15
+
+Players participating in current level: 
+Player0 got walkthrough
+========================================
+Round: 1
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player1's score: 0
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 0
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 1
+Player6's score: 0
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player7's score: 1
+Player8's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player9's score: 1
+Player10's score: 0
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player11's score: 0
+Player12's score: 0
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 0
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 2 (SCISSORS), move2: 1 (PAPER)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 2
+Player6's score: 0
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 2 (SCISSORS), move2: 1 (PAPER)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player7's score: 2
+Player8's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 1
+Player10's score: 0
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player11's score: 0
+Player12's score: 1
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 1
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 1
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player5's score: 2
+Player6's score: 1
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 2
+Player8's score: 1
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 1
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player11's score: 0
+Player12's score: 1
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player4's score: 1
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 2
+Player6's score: 1
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 2
+Player8's score: 1
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 1
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player11's score: 0
+Player12's score: 1
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player1's score: 1
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 1
+Player4's score: 2
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player5's score: 2
+Player6's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 2
+Player8's score: 2
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player9's score: 2
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player11's score: 0
+Player12's score: 2
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player4's score: 2
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 3
+Player6's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player7's score: 3
+Player8's score: 2
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player11's score: 0
+Player12's score: 3
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player4's score: 2
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player5's score: 3
+Player6's score: 3
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 3
+Player8's score: 3
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player11's score: 1
+Player12's score: 3
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player4's score: 2
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 3
+Player6's score: 3
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 3
+Player8's score: 3
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player11's score: 1
+Player12's score: 3
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 1
+Player2's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player4's score: 2
+--------------------------------
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player5's score: 3
+Player6's score: 3
+--------------------------------
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 3
+Player8's score: 3
+--------------------------------
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player10's score: 1
+--------------------------------
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player11's score: 1
+Player12's score: 3
+--------------------------------
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player1 and player2 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player2 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player1's score: 2
+Player2's score: 2
+--------------------------------
+Scores tied!!
+Winner: process1
+--------------------------------
+In this game, player3 and player4 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player4 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 2
+Player4's score: 2
+--------------------------------
+Scores tied!!
+Winner: process3
+--------------------------------
+In this game, player5 and player6 will compete.
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player6 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 2 (SCISSORS), move2: 1 (PAPER)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player5's score: 4
+Player6's score: 3
+--------------------------------
+Winner: process5
+--------------------------------
+In this game, player7 and player8 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player8 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 2 (SCISSORS), move2: 1 (PAPER)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player7's score: 4
+Player8's score: 3
+--------------------------------
+Winner: process7
+--------------------------------
+In this game, player9 and player10 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player10 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player10's score: 2
+--------------------------------
+Scores tied!!
+Winner: process9
+--------------------------------
+In this game, player11 and player12 will compete.
+Move made by player11 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player11's score: 2
+Player12's score: 3
+--------------------------------
+Winner: process12
+--------------------------------
+In this game, player13 and player14 will compete.
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player14 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player13's score: 0
+Player14's score: 0
+--------------------------------
+Scores tied!!
+Winner: process13
+
+
+New level of the tournament starting. numActivePlayers: 8
+
+Players participating in current level: 
+========================================
+Round: 1
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 0
+Player1's score: 1
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 0
+Player5's score: 0
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 0
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player12's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 0
+Player1's score: 2
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 1
+Player5's score: 0
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 0
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player12's score: 0
+Player13's score: 1
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 0
+Player1's score: 3
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 1
+Player5's score: 1
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 0
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 2 (SCISSORS), move2: 1 (PAPER)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player12's score: 1
+Player13's score: 1
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player0's score: 1
+Player1's score: 3
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 1
+Player5's score: 1
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 0
+Player9's score: 1
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player12's score: 1
+Player13's score: 1
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 1
+Player1's score: 4
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player3's score: 1
+Player5's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 1
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player12's score: 2
+Player13's score: 1
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 1
+Player1's score: 5
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 2
+Player5's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 1
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player12's score: 2
+Player13's score: 2
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 5
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 3
+Player5's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 1
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player12's score: 2
+Player13's score: 3
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 5
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 3
+Player5's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 1 (PAPER), move2: 2 (SCISSORS)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 0
+Player9's score: 2
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player12's score: 2
+Player13's score: 3
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player0's score: 1
+Player1's score: 5
+--------------------------------
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player3's score: 4
+Player5's score: 2
+--------------------------------
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player7's score: 0
+Player9's score: 3
+--------------------------------
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player12's score: 2
+Player13's score: 4
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player0 and player1 will compete.
+Move made by player0 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player0's score: 1
+Player1's score: 6
+--------------------------------
+Winner: process1
+--------------------------------
+In this game, player3 and player5 will compete.
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player5 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player3's score: 4
+Player5's score: 2
+--------------------------------
+Winner: process3
+--------------------------------
+In this game, player7 and player9 will compete.
+Move made by player7 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player7's score: 0
+Player9's score: 3
+--------------------------------
+Winner: process9
+--------------------------------
+In this game, player12 and player13 will compete.
+Move made by player12 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player12's score: 2
+Player13's score: 4
+--------------------------------
+Winner: process13
+
+
+New level of the tournament starting. numActivePlayers: 4
+
+Players participating in current level: 
+========================================
+Round: 1
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 1 (PAPER), move2: 0 (ROCK)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player9's score: 1
+Player13's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 0 (ROCK), move2: 2 (SCISSORS)), P1 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 1 
+Player9's score: 2
+Player13's score: 0
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player13's score: 1
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player13's score: 1
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 0 (ROCK), move2: 1 (PAPER)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player13's score: 2
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player13's score: 2
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player13's score: 3
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player13's score: 4
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player9's score: 2
+Player13's score: 4
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player1 and player3 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player3 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player3's score: 0
+--------------------------------
+Scores tied!!
+Winner: process1
+--------------------------------
+In this game, player9 and player13 will compete.
+Move made by player9 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 2 (SCISSORS), move2: 0 (ROCK)), P2 is winner.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 2 
+Player9's score: 2
+Player13's score: 5
+--------------------------------
+Winner: process13
+
+
+New level of the tournament starting. numActivePlayers: 2
+
+Players participating in current level: 
+========================================
+Round: 1
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 2
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 3
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 4
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 5
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 2
+Inside findResult(move1: 2 , move2: 2), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 6
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 7
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 8
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 1
+Inside findResult(move1: 1 , move2: 1), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 9
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+========================================
+Round: 10
+--------------------------------
+In this game, player1 and player13 will compete.
+Move made by player1 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Move made by player13 (0: ROCK, 1: Paper:, 2: Scissors): 0
+Inside findResult(move1: 0 , move2: 0), TIE.
+Result of this game(0: TIE, 1: 1st player won, 2: 2nd player won): 0 
+Player1's score: 0
+Player13's score: 0
+--------------------------------
+Scores tied!!
+Winner: process1
+Winner of the tournament is: process1
+********** End of tournament **********
+wait(): Waiting for children
+One child exited.
+wait(): Waiting for children
+No more children. Parent can exit now.

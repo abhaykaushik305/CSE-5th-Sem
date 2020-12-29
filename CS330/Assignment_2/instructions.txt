@@ -1,0 +1,21 @@
+Run container:
+                 $sudo docker start <container name>
+
+2) ssh to container:
+                 $ssh -p 2020 osws@localhost
+
+3) on another prompt, cd into gemOs_Students/src and use scp to copy files into container:
+                 $scp -P 2020 -r ./* osws@localhost:./gemOS/src/
+
+4) Check gemOS/src within container to confirm that files have been successfully copied.
+
+
+5) Now within gemOS/src, type $make to build kernel.
+
+6) Now to start gemOS, cd to gem5 dir and do:
+                 $/run.sh /home/osws/gemOS/src/gemOS.kernel
+
+7) On another prompt, create ssh connection to the container ($ssh -p 2020 osws@localhost) and use telnet to see gemOS console:
+                 $telnet localhost 3456
+
+8) In this gemOS console, type $init to run init program

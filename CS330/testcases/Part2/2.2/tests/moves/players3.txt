@@ -1,0 +1,16 @@
+15
+tests/moves/player1
+tests/moves/player2
+tests/moves/player3
+tests/moves/player2
+tests/moves/player3
+tests/moves/player1
+tests/moves/player2
+tests/moves/player1
+tests/moves/player2
+tests/moves/player3
+tests/moves/player2
+tests/moves/player3
+tests/moves/player1
+tests/moves/player2
+tests/moves/player2
